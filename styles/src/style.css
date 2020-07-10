@@ -1,0 +1,188 @@
+body {
+  background-color: #303030;
+  color: #fff;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body header .container {
+  width: 833px;
+  height: 30vh;
+  border-bottom: 1px solid #0000002b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+body header .container img {
+  width: 200px;
+  border-radius: 60%;
+  margin-right: 2rem;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.541);
+}
+body header .container #dir {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body header .container #dir h1 {
+  font: 500 2rem "Open Sans", sans-serif;
+  line-height: 40px;
+}
+body header .container #dir #infos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 0.5rem auto;
+}
+body header .container #dir #infos h2 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+}
+body header .container #dir #infos h2 span {
+  font-weight: bold;
+  margin-right: 0.2rem;
+}
+body header .container #dir #infos h2:nth-child(2) {
+  margin: 0 20px;
+}
+body header .container #dir #resumo {
+  font: 300 1rem "Open Sans", sans-serif;
+  width: 400px;
+}
+body main {
+  height: 70vh;
+}
+body main .container .images-container .row {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.3rem auto;
+  flex-wrap: wrap;
+}
+body main .container .images-container .row .card {
+  background: #424242;
+  height: 285px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.541);
+  margin: 1rem auto;
+}
+body main .container .images-container .row .card footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 35px;
+  padding-left: 1rem;
+}
+body main .container .images-container .row .card footer i {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+body main .container .images-container .row .card footer p {
+  font: 600 1rem "Open Sans", sans-serif;
+}
+body footer {
+  height: 5vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+body footer a {
+  text-decoration: none;
+  color: purple;
+}
+@media (min-width: 300px) {
+  body header .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  body header .container img {
+    margin: 0;
+  }
+  body header .container #dir {
+    margin-top: 0.3rem;
+  }
+  body header .container #dir h1 {
+    text-align: center;
+  }
+  body header .container #dir #infos h2 {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  body header .container #dir #infos h2:nth-child(2) {
+    margin: 0 0.6rem;
+  }
+  body header .container #dir #resumo {
+    width: 290px;
+    text-align: center;
+  }
+  body main {
+    height: auto;
+  }
+  body main .images-container .row {
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) {
+  body header {
+    width: 550px;
+    margin: 0 auto;
+  }
+  body header .container {
+    flex-direction: row;
+  }
+  body header .container img {
+    margin-right: 1rem;
+  }
+  body header .container #dir {
+    margin: 0;
+  }
+  body header .container #dir h1 {
+    text-align: left;
+  }
+  body header .container #dir #infos {
+    margin: 0.5rem 0;
+  }
+  body header .container #dir #infos h2 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  body header .container #dir #infos h2:nth-child(2) {
+    margin: 0 1rem;
+  }
+  body header .container #dir #resumo {
+    text-align: left;
+    width: 315px;
+  }
+  body main {
+    width: 100%;
+  }
+  body main .images-container {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  body main .images-container .row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  body header {
+    width: 800px;
+    margin: 0 auto;
+  }
+  body header .container img {
+    margin-right: 2rem;
+  }
+  body main .container .images-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

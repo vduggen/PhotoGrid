@@ -1,0 +1,11 @@
+@mixin d-flex-simple($direction:row) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin d-flex($align, $justify, $direction: row) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
